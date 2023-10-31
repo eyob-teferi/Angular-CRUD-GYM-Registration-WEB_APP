@@ -1,0 +1,30 @@
+@use "@angular/material" as mat;
+
+@include mat.core();
+
+// Define the primary color palette
+$my-primary: mat.define-palette(mat.$indigo-palette);
+
+// Define the accent color palette
+$my-accent: mat.define-palette(mat.$pink-palette);
+
+// Define the warn color palette
+$my-warn: mat.define-palette(mat.$deep-orange-palette);
+
+// Define the custom theme
+$my-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $my-primary,
+      accent: $my-accent,
+      warn: $my-warn,
+    ),
+    typography: mat.define-typography-config(),
+    density: 0,
+  )
+);
+
+// Apply the custom theme to all components
+@include mat.all-component-themes($my-theme);
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

@@ -1,0 +1,25 @@
+{
+  "registered": [
+    {
+      "firstName": "Eyob",
+      "lastName": "Teferi",
+      "email": "eyobteferi101@gmail.com",
+      "mobile": "0945499910",
+      "weight": 66,
+      "height": 1.7,
+      "bmi": 22.837370242214536,
+      "bmiResult": "Normal",
+      "gender": "Male",
+      "requiretrainer": "Yes",
+      "package": "Quarterly",
+      "important": [
+        "Energy and Endurance",
+        "Buliding lean Muscle",
+        "Healthier Digestive System"
+      ],
+      "haveGymBefore": "Yes",
+      "enquiryDate": "2023-08-15T21:00:00.000Z",
+      "id": 1
+    }
+  ]
+}
